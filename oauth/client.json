@@ -1,0 +1,21 @@
+{
+  "client_id": "https://sirsjg.github.io/agent-city-releases/oauth/client.json",
+  "client_name": "Agent City",
+  "client_uri": "https://github.com/sirsjg/agent-city-releases",
+  "redirect_uris": [
+    "http://127.0.0.1/oauth/callback",
+    "http://127.0.0.1:47800/oauth/callback",
+    "http://127.0.0.1:8765/oauth/callback",
+    "http://localhost/oauth/callback",
+    "http://localhost:47800/oauth/callback",
+    "http://localhost:8765/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none"
+}
